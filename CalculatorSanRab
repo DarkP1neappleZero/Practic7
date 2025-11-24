@@ -1,0 +1,17 @@
+num1 = float(input("Введите первое число: "))
+operation = input("Введите операцию (+, -, *, /): ")
+num2 = float(input("Введите второе число: "))
+
+match operation:
+    case "+":
+        result = num1 + num2
+    case "-":
+        result = num1 - num2
+    case "*":
+        result = num1 * num2
+    case "/":
+        result = num1 / num2
+    case _:
+        print("Неизвестная операция")
+        exit()
+print(num1, operation, num2, "=", result)
