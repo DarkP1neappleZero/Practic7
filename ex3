@@ -50,5 +50,15 @@ match quantity:
 total = price * quantity
 
 print("=" * 30)
+print("📃 Квитанция кафе 📃")
+print("=" * 30)
+print(f"Товар: {drink_name} {emoji}")
+print(f"Цена за порцию: {price} руб")
+print(f"Количество: {quantity} {portion_word}")
+print(f"Сумма: {total} руб")
+print("=" * 30)
+print(f"К ОПЛАТЕ: {total} руб")
+print("=" * 30)
+
 
 
