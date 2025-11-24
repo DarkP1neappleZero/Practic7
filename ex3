@@ -49,3 +49,6 @@ match quantity:
 
 total = price * quantity
 
+print("=" * 30)
+
+
