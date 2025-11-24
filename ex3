@@ -36,9 +36,8 @@ match drink_input:
         price = LEMONADE_PRICE
         emoji = "🍋"
     case _:
-        drink_name = "Ошибка"
-        price = 0
-        emoji = "❌"
+        print("Ошибка: напиток не найден")
+        exit()
 
 match quantity:
     case 1:
@@ -47,4 +46,6 @@ match quantity:
         portion_word = "порции"
     case _:
         portion_word = "порций"
+
+total = price * quantity
 
